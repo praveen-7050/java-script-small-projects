@@ -1,0 +1,52 @@
+*{
+    margin:0px;
+    padding:0px; 
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(94, 96, 227);
+}
+.head-1{
+    text-align: center;
+    margin-top: 80px;
+}
+.div-1{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 30px;
+    /* width: 400px; */
+    border: 2px ;
+    border-radius: 20PX;
+    margin-left: 450px;
+    margin-right: 450px;
+    /* padding:40px; */
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgb(130, 211, 239);
+    color: white;
+}
+.button{
+    font-size: 20px;
+    border: 2px solid white;
+    background-color: rgb(111, 165, 222);
+    color: rgb(9, 6, 6);
+    font-weight: 400;
+    padding: 10px;
+    text-align: center;
+    margin-left: 30px;
+}
+.btn-1{
+    font-size: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+      background-color: rgb(111, 165, 222);
+    color: rgb(9, 6, 6);
+}
+.label{
+    background-color:rgb(130, 211, 239) ;
+}
+.pass-key{
+    font-size:20px;
+    text-align: center;
+    padding: 5px;
+      background-color:rgb(130, 211, 239) 
+}

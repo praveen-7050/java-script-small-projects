@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+    <link rel="stylesheet" href="calculator.css" />
+  </head>
+  <script src="calculator.js" defer></script>
+  <body>
+    <div id="calculator">
+      <input id="display" readonly>
+      <div id="keys">
+        <button onclick="displayoutput('+')">+</button>
+        <button onclick="displayoutput('7')">7</button>
+        <button onclick="displayoutput('8')">8</button>
+        <button onclick="displayoutput('9')">9</button>
+        <button onclick="displayoutput('-')">-</button>
+        <button onclick="displayoutput('4')">4</button>
+        <button onclick="displayoutput('5')">5</button>
+        <button onclick="displayoutput('6')">6</button>
+        <button onclick="displayoutput('*')">*</button>
+        <button onclick="displayoutput('1')">1</button>
+        <button onclick="displayoutput('2')">2</button>
+        <button onclick="displayoutput('3')">3</button>
+        <button onclick="displayoutput('/')">/</button>
+        <button onclick="displayoutput('0')">0</button>
+        <button onclick="displayoutput('.')">.</button>
+        <button onclick="calculate('=')" class="equal">=</button>
+        <button onclick="cleardisplay('c')">c</button>
+      </div>
+    </div>
+  </body>
+</html>

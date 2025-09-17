@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  background: linear-gradient(to right, #43c6ac, #f8ffae);
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.whole-div {
+  background-color: #fefae0;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, .5);
+  max-width: 100%;
+  border-radius: 10px;
+  width: 450px;
+}
+
+.div-1 {
+  padding: 30px;
+  text-align: center;
+}
+
+.form-valid {
+  padding: 30px;
+}
+
+.form-all {
+  margin-bottom: 20px;
+  position: relative; /* ✅ for positioning icons */
+}
+
+label {
+  padding-bottom: 30px;
+}
+
+input {
+  border: 2px solid #bcfff2;
+  padding: 8px;
+  border-radius: 6px;
+  display: block;
+  font-size: 17px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+input:focus {
+  border-color: #43c6ac;
+  outline: none;
+}
+
+input.success {
+  border: 2px solid #28a745;
+  background-color: #f0fff4;
+}
+
+input.error {
+  border: 2px solid #dc3545;
+  background-color: #fff5f5;
+}
+
+/* ✅ icons inside inputs */
+.form-all i {
+  visibility: hidden;
+  position: absolute;
+  top: 40px; /* aligns with input */
+  right: 10px;
+  font-size: 18px;
+}
+
+/* ✅ show green check */
+.form-all.success i.fa-circle-check {
+  color: #28a745;
+  visibility: visible;
+}
+
+/* ✅ show red exclamation */
+.form-all.error i.fa-circle-exclamation {
+  color: #dc3545;
+  visibility: visible;
+}
+
+.error-message {
+  color: #dc3545;
+  font-size: 14px;
+  margin-top: 4px;
+  display: block;
+  visibility: hidden;
+}
+
+.form-all.error .error-message {
+  visibility: visible;
+}
+
+button {
+  border: 2px solid rgb(200, 182, 182);
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: black;
+}
+
+button:hover {
+  background-color: #b9fdff;
+  transform: translateY(-2px);
+}
