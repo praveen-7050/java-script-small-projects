@@ -1,0 +1,35 @@
+*{
+    background-color: black;
+    color: white;
+}
+.heading{
+    text-align: center;
+}
+.num{
+    padding:20px;
+    text-align: center;
+    font-size: 1.3rem;
+    border: none;
+}
+.btn-gen{
+      padding:10px;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 30px;
+    margin-left: 20px;
+    border: 2px solid red;
+}
+.div-1{
+    margin-top:200px;
+    margin-left: 600px;
+}
+.btn{
+    margin-top: -70px;
+    position: absolute;
+    padding: 5PX;
+    font-size: 20px;
+    margin-left: 320px;
+    border-radius: 10px;
+    /* margin-right: ; */
+    border: none;
+}
