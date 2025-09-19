@@ -5,7 +5,7 @@ body{
      justify-content: center;
      align-items: center;
      height: 100vh;
-     background-color: rgb(213, 210, 210);
+     background-color: rgb(246, 246, 246)
 }
 #keys{
     display: grid;
