@@ -1,52 +1,94 @@
-*{
-    margin:0px;
-    padding:0px; 
-    font-family: "Roboto", sans-serif;
-    background-color: rgb(94, 96, 227);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.head-1{
-    text-align: center;
-    margin-top: 80px;
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #111;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  padding: 20px;
 }
-.div-1{
-    text-align: center;
-    margin-top: 40px;
-    font-size: 30px;
-    /* width: 400px; */
-    border: 2px ;
-    border-radius: 20PX;
-    margin-left: 450px;
-    margin-right: 450px;
-    /* padding:40px; */
-    padding-top: 100px;
-    padding-bottom: 100px;
-    background-color: rgb(130, 211, 239);
-    color: white;
+.heading {
+  font-size: 4vw; 
+  margin-bottom: 30px;
+  letter-spacing: 1px;
 }
-.button{
-    font-size: 20px;
-    border: 2px solid white;
-    background-color: rgb(111, 165, 222);
-    color: rgb(9, 6, 6);
-    font-weight: 400;
+.password-container {
+  background-color: #1a1a1a;
+  padding: 30px 25px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+}
+.label {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  align-self: flex-start;
+}
+.pass-key {
+  width: 100%;
+  padding: 12px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: #333;
+  color: white;
+}
+.buttons {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+.btn-copy, .btn-generate {
+  flex: 1 1 45%;
+  padding: 12px 0;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-copy {
+  background-color: #6c63ff;
+  color: white;
+}
+
+.btn-generate {
+  background-color: #ff6b6b;
+  color: white;
+}
+
+.btn-copy:hover, .btn-generate:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+@media (max-width: 480px) {
+  .heading {
+    font-size: 6vw;
+  }
+  .pass-key {
+    font-size: 1rem;
     padding: 10px;
-    text-align: center;
-    margin-left: 30px;
-}
-.btn-1{
-    font-size: 20px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-bottom: 3px;
-      background-color: rgb(111, 165, 222);
-    color: rgb(9, 6, 6);
-}
-.label{
-    background-color:rgb(130, 211, 239) ;
-}
-.pass-key{
-    font-size:20px;
-    text-align: center;
-    padding: 5px;
-      background-color:rgb(130, 211, 239) 
+  }
+  .btn-copy, .btn-generate {
+    font-size: 0.9rem;
+    padding: 10px 0;
+  }
 }

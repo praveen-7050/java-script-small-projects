@@ -1,35 +1,93 @@
-*{
-    background-color: black;
-    color: white;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.heading{
-    text-align: center;
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #111;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  text-align: center;
 }
-.num{
-    padding:20px;
-    text-align: center;
-    font-size: 1.3rem;
-    border: none;
+
+.heading {
+  font-size: 4vw; 
+  margin-bottom: 30px;
+  letter-spacing: 1px;
 }
-.btn-gen{
-      padding:10px;
-    text-align: center;
-    font-size: 1.3rem;
-    margin-top: 30px;
-    margin-left: 20px;
-    border: 2px solid red;
+
+.otp-container {
+  background-color: #1a1a1a;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
 }
-.div-1{
-    margin-top:200px;
-    margin-left: 600px;
+.num {
+  width: 100%;
+  padding: 15px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: #333;
+  color: white;
 }
-.btn{
-    margin-top: -70px;
-    position: absolute;
-    padding: 5PX;
-    font-size: 20px;
-    margin-left: 320px;
-    border-radius: 10px;
-    /* margin-right: ; */
-    border: none;
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.btn, .btn-gen {
+  flex: 1 1 45%;
+  padding: 12px 0;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.btn {
+  background-color: #6c63ff;
+  color: white;
+}
+
+.btn-gen {
+  background-color: #ff6b6b;
+  color: white;
+}
+
+.btn:hover, .btn-gen:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+}
+
+@media (max-width: 480px) {
+  .heading {
+    font-size: 6vw;
+  }
+  .num {
+    font-size: 1.2rem;
+    padding: 12px;
+  }
+  .btn, .btn-gen {
+    font-size: 0.9rem;
+    padding: 10px 0;
+  }
 }
