@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* background-color:#84CC16; */
+    color: rgb(0, 0, 0);
+}
+body{
+background-image: url(./Asset/background-hero-page-logo.jpeg);
+ background-size:cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center center;
+width: 100%;
+height: 100vh;
+position: relative;
+backdrop-filter: blur(10px);
+}
+.logo-img{
+    width: 130px;
+     filter: drop-shadow(5px 5px 10px rgb(0, 0, 0));
+}
+.sec-1-head-1-pardiv-1{
+    display: flex;
+    padding-top: 40px;
+}
+.sec-1-head-1-pardiv-1 p{
+    margin-right: 40px;
+    font-size: 1.2rem;
+    padding-right: 30px;
+    padding-top: 10px;
+    font-weight: 550;
+    transition: 0.3s;
+}
+.sec-1-a{
+    text-decoration: none;
+}
+.sec-1-head-1-pardiv-1 p:hover{
+    color:#58595b
+}
+.sec-1-head-1-nav-maindiv img{
+    margin-left: 50px;
+    padding-top: 10px;
+}
+.sec-1-head-1-nav-maindiv{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: -30px;
+}
+.sec2-h-1{
+    text-align: center;
+    font-size: 2.8rem;
+    color:rgb(9, 3, 3);
+    margin-top: -10px;
+}
+.sec3-inside-form-maindiv-1{
+    margin-left: 320px;
+    margin-top: 20px;
+    /* margin-right: 300px; */
+    /* background-color: rgba(255, 255, 255, 0.216); */
+    padding: 150px ;
+    border-radius: 5px;
+    /* align-items: center; */
+    align-content: center;
+    margin-bottom: -140px;
+
+}
+.sec3-name-div{
+    margin-top: -90px;
+    margin-left: 40px;
+}
+.sec3-name-div label{
+  font-size: 1.3rem;
+  /* margin-left: 70px; */
+}
+.sec3-name-div input{
+    padding: 10px;
+    width: 300px;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+.sec3-phone-div{
+    margin-top: 20px;
+    margin-left: -30px;
+
+}
+.sec3-phone-div label{
+  font-size: 1.3rem;
+}
+.sec3-phone-div input{
+    padding: 10px;
+    width: 300px;
+        margin-left: 30px;
+    border-radius: 5px;
+}
+.sec3-email-div{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.sec3-email-div label{
+  font-size: 1.3rem;
+}
+.sec3-email-div input{
+    padding: 10px;
+    width: 300px;
+     margin-left: 30px;
+    border-radius: 5px;
+}
+.sec3-pass-div{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.sec3-pass-div label{
+  font-size: 1.3rem;
+}
+.sec3-pass-div input{
+    padding: 10px;
+    width: 300px;
+      margin-left: 30px;
+    border-radius: 5px;
+
+}
+.sec3-role-div{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.sec3-role-div label{
+  font-size: 1.3rem;
+}
+.role-select{
+    width: 100px;
+    padding: 5px;
+    font-size: 15px;
+       margin-left: 40px;
+    border-radius: 5px;
+}
+.btn-sumbit-reg{
+    padding: 10px 20px 10px 20px;
+    position: absolute;
+    margin-top: 50px;
+    z-index: 3;
+    margin-left: 130px;
+    font-size: 1rem;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    border: hidden;
+    /* margin-bottom: -350px; */
+}
+.class{
+    color: red;
+}
+.btn-log{
+    margin-left: 340px;
+    padding: 10px 15px 10px 15px;
+    border: hidden;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 50px;
+}

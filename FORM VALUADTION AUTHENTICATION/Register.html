@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register to RaceCraft Technologies</title>
+    <link rel="stylesheet" href="Register.css">
+</head>
+<body>
+    <section class="sec-whole">
+    <section class="sec-1">
+   <header class="head-1">
+        <nav>
+            <div class="sec-1-head-1-nav-maindiv">
+                 <img class="logo-img" src="./Asset/logo (2).png">
+                    <div class="sec-1-head-1-pardiv-1">
+                     <a href="index.html" class="sec-1-a"> <P class="sec1-head-1-p-1">Home</P></a>  
+                        <P class="sec1-head-1-p-2">Solution</P>
+                        <P class="sec1-head-1-p-3">About Us</P>
+                        <P class="sec1-head-1-p-4">Services</P>
+                        <P class="sec1-head-1-p-5">Contact</P>
+                    </div>
+             </div>
+        </nav>
+   </header>
+</section>
+<section class="sec-2">
+        <h1 class="sec2-h-1">Register to RaceCraft Technologies </h1>
+     </section>x
+     <section class="sec-3">
+          <div class="sec3-maindiv-1">
+                <form class="sec3-form">
+                     <div class="sec3-inside-form-maindiv-1">
+                        <div class="sec3-name-div">
+                                <label class="name-label">Name :</label>
+                                <input class="name-input" id="name-id" type="text"  placeholder="Your Name"> 
+                                <small class="small-name class" id="small-name-id"></small>
+                         </div>
+                         <div class="sec3-phone-div">
+                             <label class="phone-label">phone number :</label>
+                             <input class="phone-input" id="phone-id" min="10" type="number" placeholder="Your Phone Number" >
+                              <small class="small-phone class" id="small-phone-id"></small>
+                         </div>
+                         <div class="sec3-email-div">
+                                <label class="email-label">email :</label>
+                                <input class="email-input" id="email-id"  type="email" placeholder="Your Email" >
+                                 <small class="small-email class" id="small-email-id"></small>
+                         </div>
+                         <div class="sec3-pass-div">
+                                <label class="pass-label">password :</label>
+                                <input class="pass-input" id="pass-id" min="8" type="password" placeholder="Your password" >
+                                 <small class="small-pass class" id="small-pass-id"></small>
+                         </div>
+                         <div class="sec3-role-div">
+                                <label class="role-label">role :</label>
+                                <select class="role-select" id="role-id">
+                                     <option>Admin</option>
+                                     <option>user</option>
+                                     <option>staff</option>
+                                </select>
+                         </div>
+                         <div class="sec3-btn-div">
+                              <button  onclick="valid(event)" class="btn-sumbit-reg"> submit</button>
+                             <a href="Login.html"> <input type="button"class="btn-log" value="login"> </a>
+                         </div>
+                    </div>
+             </form>
+          </div>
+     </section>
+    <script src="Register.js"></script>
+</body>
+</html>
