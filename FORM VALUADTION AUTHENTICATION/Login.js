@@ -10,11 +10,11 @@ e.preventDefault()
 
       if (founduser.Role === "Admin") {
         localStorage.setItem("currentEmail", Email);
-        window.location.href = "Admin.html";
+        window.location.href = "./Admin.html";
       } else if (founduser.Role == "user") {
-        window.location.href = "user.html";
+        window.location.href = "./user.html";
       } else if (founduser.Role === "staff") {
-        window.location.href =="staff.html";
+        window.location.href =="./staff.html";
       }
     } else {
       alert("Email id or password invalid please check again");
