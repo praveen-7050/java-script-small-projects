@@ -34,7 +34,7 @@ function fetchdatauser(event){
   // output.style.border="2px solid red"
   para.innerHTML=output
   const para1 = document.getElementById("para-2");
-  const storevalue2 = JSON.parse(localStorage.getItem("userdetails"));
+  const storevalue2 = JSON.parse(localStorage.getItem("userdetails"))||[]
   const user1 = storevalue2.filter((ud1) => ud1.Role === "staff");
 
   if (user1.length == 0) {
@@ -48,7 +48,7 @@ function fetchdatauser(event){
     <th style="border: 1px solid white; padding: 10px;color:black">Email</th>
     <th style="border: 1px solid white; padding: 10px;color:black">Password</th>
    <th style="border: 1px solid white; padding: 10px;color:black">Role</th>
-   </tr>`;
+   </tr>`
   for (let i = 0; i < user1.length; i++) {
     output1 += `<tr>
     <td style="border: 1px solid white; padding: 10px;">${user1[i].Name}</td>
