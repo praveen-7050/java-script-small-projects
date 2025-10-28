@@ -9,12 +9,12 @@ e.preventDefault()
       alert("Welcome to Racecraft Technonolgies " + founduser.Name + " Login Successfull");
 
       if (founduser.Role === "Admin") {
-        localStorage.setItem("currentEmail", Email);
+        localStorage.setItem("currentEmail", emaillog);
         window.location.href = "./Admin.html";
-      } else if (founduser.Role == "user") {
+      } else if (founduser.Role === "user") {
         window.location.href = "./user.html";
       } else if (founduser.Role === "staff") {
-        window.location.href =="./staff.html";
+        window.location.href ="./staff.html";
       }
     } else {
       alert("Email id or password invalid please check again");
