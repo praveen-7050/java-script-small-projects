@@ -1,0 +1,44 @@
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+    }
+    :root {
+    --background: #000430;
+    --secondaryBackground: #171c48;
+    --text: #fff;
+    --purple: #828dff;
+    --teal: #24feee;
+    }
+    .lightmode{
+    --background: #ececf1;
+    --secondaryBackground: #a9abbe;
+    --text: #000;
+    --purple: #828dff;
+    --teal: #24feee;
+    }
+    body{
+        background-color: var(--background);
+        color: var(--text);
+    }
+    .appname{
+            color: var(--text);
+    }
+    .list-container{
+        /* width: 600px; */
+        background-color:var(--secondaryBackground);
+        border-radius: 15px;
+    }
+    .listitem{
+        background-color: var(--secondaryBackground);
+        border-radius: 10px;
+    }
+    .litags-text{
+        font-weight: bold;
+    }
+    .text-decor{
+        text-decoration: line-through;
+        text-decoration-color: red;
+        text-decoration-thickness: 2px;
+    
+    }
